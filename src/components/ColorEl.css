@@ -1,0 +1,18 @@
+div.ColorEl {
+  margin: 1rem;
+  display: flex;
+}
+
+div.ColorEl div.Swatch {
+  height: 5rem;
+  width: 5rem;
+  display: inline-block;
+}
+div.ColorEl div.Content {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
