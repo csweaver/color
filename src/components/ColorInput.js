@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Button, TextArea, Form } from "semantic-ui-react";
+import { Button, TextArea, Form, Header } from "semantic-ui-react";
 import { inputColors } from "../actions";
 @connect(state => {
   return { colors: state.colors };
@@ -20,6 +20,7 @@ class ColorImp extends Component {
   render() {
     return (
       <div>
+        <Header as="h3">Input Colors</Header>
         <Form onSubmit={this.handleSubmit}>
           <Form.Field>
             <label>Colors to parse</label>
