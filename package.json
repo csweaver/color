@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.3.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "prettier": "^1.16.4",
     "redux-devtools-extension": "^2.13.8"
   },
